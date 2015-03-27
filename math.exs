@@ -1,4 +1,17 @@
 defmodule Math2 do
+	@moduledoc """
+	Provides math operations	
+
+	## Exemples 
+
+		iex-> Math2.sum(1,1)
+		2
+		
+	"""
+
+	@doc """
+	Calculates the sum of two numbers
+	"""
 	def sum a, b do
 		a + b
 	end
